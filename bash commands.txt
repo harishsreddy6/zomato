@@ -1,0 +1,52 @@
+It seems like you want a step-by-step explanation of how to deploy a React app and set up a GitHub repository for the provided code. Here's a detailed guide:
+
+1. Create a React App: If you haven't already done so, create a new React app using Create React App. Run the following command in your terminal:
+
+   
+   npx create-react-app zomato-recommends
+
+
+2. Navigate to the Project Directory: Change your current directory to the newly created project directory:
+
+ 
+   cd zomato-recommends
+
+
+3. Replace src/App.js: Replace the contents of `src/App.js` with the provided code for the Zomato Recommends component.
+
+4. Install Axios: Axios is a library for making HTTP requests in JavaScript. Install it using npm or yarn:
+
+   
+   npm install axios
+   
+
+   or
+
+
+   yarn add axios
+
+
+5. Create a GitHub Repository: Go to GitHub and create a new repository named `zomato-recommends`. Follow the instructions provided by GitHub to initialize the repository.
+
+6. Commit and Push Code: Initialize a Git repository in your project directory, add all files, commit your changes, and push to the GitHub repository:
+
+  
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin <https://github.com/harishsreddy6/zomato>
+   git push -u origin main
+
+
+  
+
+7. **Deploy to Hosting Provider: You can deploy your React app to a hosting provider like Netlify or Vercel. Here's how to deploy to Netlify:
+
+   - Sign up for a Netlify account if you haven't already.
+   - Once logged in, click on "New site from Git".
+   - Connect your GitHub repository.
+   - Configure the build settings (usually defaults work fine for Create React App).
+   - Click "Deploy site".
+
+By following these steps, you'll have deployed your React app to a hosting provider and set up a GitHub repository containing the code.
